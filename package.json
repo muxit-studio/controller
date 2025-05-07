@@ -1,0 +1,30 @@
+{
+  "name": "@muxit-studio/controller",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "pnpm run build"
+  },
+  "files": [
+    "./dist",
+    "./package.json"
+  ],
+  "dependencies": {
+    "lit": "^3.2.1"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "^4.0.0",
+    "@tsconfig/node22": "^22.0.1",
+    "@types/mocha": "^10.0.10",
+    "@web/dev-server-esbuild": "^1.0.4",
+    "@web/test-runner": "^0.20.1",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"extends": "@tsconfig/node22",
+	"compilerOptions": {
+		"moduleResolution": "bundler",
+		"module": "ESNext",
+		"lib": ["ES2020", "DOM", "DOM.Iterable"],
+		"target": "ES2020",
+		"resolveJsonModule": true,
+		"allowJs": true,
+		"isolatedModules": true,
+		"verbatimModuleSyntax": false,
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"declaration": true,
+		"declarationMap": true,
+		"declarationDir": "./dist/types",
+		"sourceMap": true
+	}
+}
