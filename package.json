@@ -1,37 +1,38 @@
 {
-  "name": "@muxit-studio/controller",
-  "version": "0.1.0",
-  "type": "module",
-  "exports": {
-    ".": {
-      "types": "./dist/types/index.d.ts",
-      "default": "./dist/index.js"
-    }
-  },
-  "files": [
-    "./dist",
-    "./package.json"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/muxit-studio/controller"
-  },
-  "keywords": [],
-  "author": "Guilherme Rosado <guilherme@muxit.co>",
-  "license": "MIT",
-  "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "prepublishOnly": "pnpm run build"
-  },
-  "dependencies": {
-    "lit": "^3.2.1"
-  },
-  "devDependencies": {
-    "@open-wc/testing": "^4.0.0",
-    "@tsconfig/node22": "^22.0.1",
-    "@types/mocha": "^10.0.10",
-    "@web/dev-server-esbuild": "^1.0.4",
-    "@web/test-runner": "^0.20.1",
-    "typescript": "^5.8.3"
-  }
+	"name": "@muxit-studio/controller",
+	"version": "0.1.0",
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./dist/types/index.d.ts",
+			"default": "./dist/index.js"
+		}
+	},
+	"files": [
+		"./dist",
+		"./package.json"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/muxit-studio/controller"
+	},
+	"keywords": [],
+	"author": "Guilherme Rosado <guilherme@muxit.co>",
+	"license": "MIT",
+	"scripts": {
+		"build": "tsc -p tsconfig.json",
+		"prepublishOnly": "pnpm run build"
+	},
+	"peerDependencies": {
+		"lit": "^3.0.0"
+	},
+	"devDependencies": {
+		"@open-wc/testing": "^4.0.0",
+		"@tsconfig/node22": "^22.0.1",
+		"@types/mocha": "^10.0.10",
+		"@web/dev-server-esbuild": "^1.0.4",
+		"@web/test-runner": "^0.20.1",
+		"typescript": "^5.8.3",
+		"lit": "^3.2.1"
+	}
 }
