@@ -1,6 +1,6 @@
 {
   "name": "@muxit-studio/controller",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "type": "module",
   "exports": {
     ".": {
@@ -8,14 +8,21 @@
       "default": "./dist/index.js"
     }
   },
-  "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "prepublishOnly": "pnpm run build"
-  },
   "files": [
     "./dist",
     "./package.json"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muxit-studio/controller"
+  },
+  "keywords": [],
+  "author": "Guilherme Rosado <guilherme@muxit.co>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "pnpm run build"
+  },
   "dependencies": {
     "lit": "^3.2.1"
   },
