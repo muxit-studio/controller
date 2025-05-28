@@ -31,7 +31,7 @@
 		"@tsconfig/node22": "^22.0.1",
 		"@types/mocha": "^10.0.10",
 		"@web/dev-server-esbuild": "^1.0.4",
-		"@web/test-runner": "^0.20.1",
+		"@web/test-runner": "^0.20.2",
 		"typescript": "^5.8.3",
 		"lit": "^3.2.1"
 	}
